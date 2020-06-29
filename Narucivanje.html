@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Naručivanje</title>
+  <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="description" content="Naručivanje">
+	<meta name="keywords" content="Marvel, DC, Stripovi, Prodaja">
+	<meta name="author" content="Uroš Berić | NRT-11/16 | uros.beric@live.com">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+	 crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/css.css">
+  <link rel="stylesheet" type="text/css" href="css/narucivanje.css">
+</head>
+
+<body>
+
+  
+    <div class="ful-width">
+        <div class="navbar navbar-inverse">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mojNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="Index.html"> Comics Store </a>
+          </div>
+          <div class="collapse navbar-collapse" id="mojNavbar">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="Index.html">Početna</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" style="background-color: #5E4485">Proizvodi <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="Marvel.html">Marvel</a></li>
+                  <li><a href="DC.html">DC</a></li>
+                  <li><a href="Ostalo.html">Ostali proizvodi</a></li>
+                </ul>
+              </li>
+              <li><a href="Galerija.html">Galerija</a></li>
+              <li class="active"><a href="Narucivanje.html">Naručivanje <span class="sr-only">(current)</span></a></li>
+    
+            </ul>
+          </div>
+        </div>
+
+        
+<div class="container">
+  <div class="row">
+    <div class="col-75">
+      <div class="jumbotron">
+        <div class="row">
+          <div class="col-50">
+            <h3>Podaci</h3>
+
+            <label for="fname">Ime i Prezime</label>
+            <input type="text" id="fname" name="firstname" placeholder="Uros Beric">
+            <label for="email"> Email</label>
+            <input type="text" id="email" name="email" placeholder="comicstore@gmail.com">
+            <label for="adr"> Adresa</label>
+            <input type="text" id="adr" name="address" placeholder="Beograd Vojvode Stepe 283">
+            <label for="city"> Grad</label>
+            <input type="text" id="city" name="city" placeholder="Beograd">
+            <label for="zip">Poštanski broj</label>
+            <input type="text" id="zip" name="zip" placeholder="11000">
+
+            <h3>Plaćanje</h3>
+
+            <label for="cname">Ime na kartici</label>
+            <input type="text" id="cname" name="cardname" placeholder="Uros Beric">
+            <label for="ccnum">Broj kreditne kartice</label>
+            <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
+            <label for="expmonth">Mesec isticanja</label>
+            <input type="text" id="expmonth" name="expmonth" placeholder="Jun">
+            <label for="expyear">Godina isticanja</label>
+            <input type="text" id="expyear" name="expyear" placeholder="2018">
+            <label for="cvv">CVV</label>
+            <input type="text" id="cvv" name="cvv" placeholder="352">
+          </div>
+        </div>
+        <div class="icon-container text-center ">
+          <i class="fab fa-cc-visa" style="color:navy;"></i>
+          <i class="fab fa-cc-amex" style="color:blue;"></i>
+          <i class="fab fa-cc-mastercard" style="color:red;"></i>
+        </div>
+      </div>
+    </div>
+    <div class="container text-center">
+      <button type="button" class="btn" data-toggle="modal" data-target="#modalniProzor">Pošalji porudžbinu</button>
+      <div class="modal fade" id="modalniProzor">
+        <div class="modal-dialog modal-md">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title">Obaveštenje!</h4>
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <div class="modal-body">
+              <h3>Vaša porudžbina je uspešno poslata.</h3>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Zatvori prozor</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </form>
+  </div>
+  </div>
+  
+  
+ 
+
+  <div class="navbar navbar-inverse">
+			<div class="navbar-footer">
+				<div class="col-sm-6 text-left">
+					<div class="dugme">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mojNavbar1">
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+					</div>
+					<div class="ikone">
+						<a href="https://www.facebook.com" class="fab fa-facebook"></a>
+						<a href="https://twitter.com/?lang=en" class="fab fa-twitter"></a>
+						<a href="https://www.google.com" class="fab fa-google"></a>
+						<a href="https://www.instagram.com" class="fab fa-instagram"></a>
+						<a href="https://www.youtube.com" class="fab fa-youtube"></a>
+					</div>
+				</div>
+				<div class="collapse navbar-collapse" id="mojNavbar1">
+					<div class="kolona col-sm-6">
+						<ul class="nav navbar-nav navbar-right">
+							<li><a href="onama.html">O nama</a></li>
+							<li><a href="Kontakt.html">Kontakt</a></li>
+							<li><a href="Mapa.html">Mapa sajta</a></li>
+							<li><a href="faq.html">FAQ</a></li>
+
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-12 text-center">
+				<h4>© 2018 Comic Store</h4>
+			</div>
+		</div>
+	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="css/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
