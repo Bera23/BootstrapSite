@@ -1,0 +1,70 @@
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.col-25 {
+  flex: 25%;
+}
+
+.col-50 {
+  flex: 50%;
+}
+
+.col-75 {
+  flex: 75%;
+}
+
+.col-25,
+.col-50,
+.col-75 {
+  padding: 0 16px;
+}
+
+.jumbotron {
+  background-color: #f2f2f2;
+  padding: 5px 20px 15px 20px;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+  margin: 10% 10% 10% 10%;
+  box-shadow: 1px 6px 20px -5px #5e4485;
+}
+
+input[type="text"] {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+label {
+  margin-bottom: 10px;
+  display: block;
+  margin-top: 20px;
+}
+
+.btn {
+  background-color: #5e4485;
+  border: none;
+  color: #d5d5d5;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin-bottom: 30px;
+  border-radius: 3px;
+  margin-top: 30px;
+}
+
+.btn:hover {
+  color: #d5d5d5;
+  background-color: rgb(105, 81, 139);
+}
+.fas {
+  text-decoration-line: none;
+  color: #5e4485;
+}

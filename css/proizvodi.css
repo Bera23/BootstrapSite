@@ -1,0 +1,45 @@
+#slika {
+  max-width: 300px;
+  padding-top: 5em;
+}
+.container h2 {
+  margin-top: 10%;
+}
+.jumbotron {
+  margin: 10%;
+  padding-right: 5em;
+  padding-left: 5em;
+  box-shadow: 1px 6px 20px -5px #5e4485;
+}
+.btn {
+  background-color: #5e4485;
+  border: none;
+  color: #d5d5d5;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  margin-bottom: 30px;
+  border-radius: 3px;
+  margin-top: 30px;
+}
+
+.container h2 {
+  font-size: 25px;
+}
+.jumbotron p {
+  font-size: 15px;
+}
+.zoom {
+  transition: transform 0.2s;
+}
+.zoom:hover {
+  transform: scale(1.5);
+}
+.fa-shopping-bag {
+  color: #d5d5d5;
+}
+.fas :hover {
+  background-color: rgb(105, 81, 139);
+}

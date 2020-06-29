@@ -1,0 +1,147 @@
+.navbar {
+  margin: auto;
+  border-radius: 0;
+  background-color: #5e4485;
+  color: #d5d5d5;
+  padding: 0.5% 0;
+  font-size: 15px;
+  border: 0;
+}
+
+.navbar-brand {
+  float: left;
+  background-color: #5e4485;
+  font-size: 3em;
+  margin: auto;
+}
+
+.navbar-inverse .navbar-nav .active a,
+.navbar-inverse .navbar-nav .active a:focus,
+.navbar-inverse .navbar-nav .active a:hover {
+  color: #d5d5d5;
+  background-color: rgb(105, 81, 139);
+}
+.navbar-inverse .navbar-nav .dropdown,
+.navbar-inverse .navbar-nav .dropdown a:focus {
+  color: #d5d5d5;
+  background-color: #5e4485;
+}
+.navbar-inverse .navbar-nav li a {
+  color: #d5d5d5;
+}
+
+.fab {
+  padding: 10px;
+  font-size: 30px;
+  color: #fff;
+  margin: auto;
+}
+.fab:hover {
+  color: #d5d5d5;
+  text-decoration: none;
+}
+.dropdown {
+  color: #d5d5d5;
+  background-color: #5e4485;
+}
+
+.dropdown-menu {
+  color: #d5d5d5;
+  background-color: #5e4485;
+}
+.navbar-inverse .dropdown a:hover {
+  color: #d5d5d5;
+  background-color: rgb(105, 81, 139);
+}
+.jumbotron {
+  margin-top: 30px;
+  box-shadow: 1px 6px 20px -5px #5e4485;
+}
+.row h3 {
+  font-size: 20px;
+  margin: auto;
+}
+
+.navbar-inverse ul {
+  margin-right: auto;
+}
+.fas {
+  text-decoration-line: none;
+  color: #5e4485;
+}
+.fa-print {
+  color: #d5d5d5;
+}
+.fa-download {
+  color: #d5d5d5;
+}
+.btn {
+  background-color: #5e4485;
+  border: none;
+  color: #d5d5d5;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin-bottom: 30px;
+  border-radius: 3px;
+  margin-top: 30px;
+}
+
+.btn:hover {
+  color: #d5d5d5;
+  background-color: rgb(105, 81, 139);
+}
+
+.panel-title a {
+  text-decoration: none;
+  font-weight: bolder;
+}
+.panel-collapse.collapse.in {
+  box-shadow: 1px 6px 20px -5px #5e4485;
+  transition: all 0.5s ease-in;
+}
+.col-sm-6 {
+  margin: auto;
+}
+
+.navbar-inverse .navbar-toggle:focus,
+.navbar-inverse .navbar-toggle:hover {
+  background-color: #5e4485;
+}
+.navbar-inverse .navbar-nav .open .dropdown-menu > .active > a,
+.navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:focus,
+.navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:hover {
+  background-color: rgb(105, 81, 139);
+}
+.navbar-inverse .navbar-nav .open .dropdown-menu > .active > a {
+  width: fit-content;
+}
+.navbar-inverse .navbar-nav li a {
+  width: fit-content;
+}
+.navbar-inverse .navbar-collapse,
+.navbar-inverse .navbar-form {
+  border-color: #5e4485;
+}
+.panel-title {
+  color: rgb(105, 81, 139);
+}
+.page-header {
+  color: rgb(105, 81, 139);
+  font: bolder;
+}
+
+li a:hover {
+  color: rgb(174, 0, 255);
+  text-decoration: none;
+}
+li a {
+  color: #5e4485;
+}
+#slika {
+  max-width: 200px;
+  padding-top: 5em;
+  margin: 1% auto;
+}
